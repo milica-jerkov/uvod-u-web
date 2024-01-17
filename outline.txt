@@ -1,0 +1,35 @@
+- html boilplate
+
+- div
+- paragraf
+- em, i, bold, strong, mark, sub, sup, u, del, ins
+- a tag (tel, mailto, download, target, title)
+- navigacija 
+
+- path
+
+- selektor, property (svojstvo) i vrednost
+- CSS selektori
+- odabir html elemenata na koje želimo da primenimo određene stilove
+- selektori: 
+    - element selektora
+    - klasa
+    - id
+    - univerzalni
+    - grupisanje selektora 
+    - child selektor
+    - pseudo klasa 
+    - pseudo element
+    - nth-child()
+    - :not(.klasa)
+    - atribut selector
+    - ::selection
+
+- CSS specificity
+- pravilo koje određuje redosled primene stilova kada se više stilova međusobno preklapaju
+- Inline stilovi: Specificnost 1000
+- ID selektori: Specificnost 100
+- Klasni selektori, pseudo-klase i atributni selektori: Specificnost 10
+- Element selektori i pseudo-elementi: Specificnost 1
+
+- !important
