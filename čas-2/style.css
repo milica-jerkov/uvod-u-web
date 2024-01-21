@@ -1,0 +1,107 @@
+
+/* p {
+    color: blue;
+    background-color: red;
+} */
+
+/* * {
+    color: rgb(114, 68, 7);
+} */
+
+/* .klasa {
+    color: red !important
+}
+
+#id {
+    color: green 
+}
+ */
+
+/* .klasa2 {
+    color: blue !important;
+}
+
+.klasa1 {
+    color: red;
+}
+ */
+/* 
+ p {
+    color: blue
+ }
+
+ div p {
+    color: red
+ }
+ */
+
+
+ /* a[download] {
+    color: red
+ }
+
+ a[href="tel:+123456"] {
+    color: black
+ }
+
+  a[href="tel:+123456+"] {
+    color: black
+ } */
+
+/* a:hover {
+    color: red
+}
+
+p:hover {
+    color: blue
+} */
+
+
+/* a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:active {
+    color: green
+}
+a:focus {
+    background: red
+}
+
+a::after {
+    content: ' after';
+    color: green
+}
+
+a:hover::after {
+    color: red
+}
+
+::selection {
+    color: white;
+    background: black;
+} */
+
+.klasa {
+    color: red
+}
+
+#id {
+    color: blue
+}
+
+/* .klasa1.klasa1 {
+    color: green
+}
+
+.klasa2 {
+    color: blue
+} */
