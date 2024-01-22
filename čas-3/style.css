@@ -14,7 +14,7 @@ li:focus-within {
 }    */
 
 
-nav, ul, li {
+/* nav, ul, li {
     display: inline;
 }
 
@@ -25,7 +25,7 @@ li {
 nav ul li a {
     text-decoration: none;
     color: rgb(26, 84, 219);
-}
+} */
 
 /* div {
     width: 200px;
@@ -40,3 +40,4 @@ p {
     color: red;
 }
  */
+

@@ -71,5 +71,19 @@ Anatomija CSS-a obuhvata osnovne strukture, pravila i koncepte koji čine stilsk
 1. **Selektor** identifikuje koji HTML elementi će biti stilizovani pravilima koji slede (element, #id, .klasa, * ...)
 
 
+
 ***NASTAVIĆE SE***
 
+
+
+####CSS Position
+
+**static** (podrazumevana vrednost): Elementi se pozicioniraju prema normalnom toku dokumenta.
+
+**relative**: Element zadržava svoj normalni prostor, ali se može pomeriti relativno u odnosu na svoju normalnu poziciju pomoću top, right, bottom i left svojstava.
+
+**absolute**: Element se pozicionira u odnosu na prvog roditeljskog elementa koji ima postavljenu vrednost relative, ili u odnosu na sam dokument ako takav roditelj ne postoji. Ne zauzima mesto u normalnom toku dokumenta.
+
+**fixed**: Element ostaje fiksiran u odnosu na pregledač prozora. Ne zauzima mesto u normalnom toku dokumenta.
+
+**sticky**: Element se ponaša kao relative do tačke, nakon čega postaje fixed u odnosu na roditeljski kontejner.

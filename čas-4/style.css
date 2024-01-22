@@ -1,0 +1,70 @@
+/* body {
+    height: 2000px;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    background: red;
+}
+
+/* section {
+    background-color: gray;
+    position: relative;
+    top: 50px;
+    height: 1000px;
+} */
+
+/* div:first-of-type {
+    background: green;
+    position: sticky;
+    left: 200px;
+    bottom: 150px;
+}
+div:nth-child(2){
+    background: blue;
+    position: relative;
+    left: 50px;
+}
+
+div:nth-child(3){
+    background: yellow;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+div:nth-child(4) {
+    background: purple;
+    position: fixed;
+    right: 50px;
+    top: 0;
+}
+
+div:nth-child(5) {
+    background: rgb(38, 124, 81);
+    position: sticky;
+    left: 200px;
+    top: 50px;
+} */
+
+
+/* .promeni {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+input[name="plava"]:checked ~ .promeni {
+    background-color: blue;
+}
+
+input[name="crvena"]:checked ~ .promeni {
+    background-color: red;
+}
+
+input[name="plava"], input[name="crvena"] {
+    display: none;
+}
+
+ */
