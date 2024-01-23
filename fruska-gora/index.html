@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fruška gora</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#istorijat">Istorijat</a></li>
+          <li><a href="#privreda">Privreda</a></li>
+          <li>
+            <a href="#"><img src="./slike/logo.svg" alt="Fruska Gora" /></a>
+          </li>
+          <li><a href="#kultura">Privreda</a></li>
+          <li><a href="#prijava">Prijava</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero">
+        <h1>
+          Posetite Frusku goru i saznajte zasto pola Novog Sada svaki vikend
+          pali gore
+        </h1>
+        <img src="./slike/Slika_prvi_div.png" alt="glavna slika" />
+      </section>
+      <section id="istorijat" class="istorijat">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <h2>Istorijat</h2>
+                <p>
+                  <strong>Fruška gora</strong> je ostrvska planina u Srbiji, u
+                  okviru koje se nalazi nacionalni park. Najveći deo Fruške gore
+                  se nalazi u severnom delu Srbije, u Sremu, delu autonomne
+                  pokrajine Vojvodine, dok mali deo zalazi u istočnu Hrvatsku.
+                </p>
+                <p>
+                  Ova planina se prostire dužinom od oko 78 km i širinom od 12
+                  do 15 km i zahvata površinu od 255 km<sup>2</sup> Deo Fruške
+                  gore je 1960. godine proglašena nacionalnim parkom i time je
+                  postala prvi nacionalni park u Srbiji. Najviši vrh je
+                  <strong>Crveni Cot</strong> (539m)
+                </p>
+              </td>
+              <td>
+                <img src="./slike/Slika_drugi_div.png" alt="slika istorijat" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="privreda" class="privreda">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="./slike/Slika_treci_div.png" alt="slika privreda" />
+              </td>
+              <td>
+                <h2>Privreda</h2>
+                <p>
+                  Danas veliki problem predstavljaju prometni regionalni putevi
+                  koji povezuju <em>Srem, Banat</em> i <em>Bačku</em>. Njima
+                  saobraća veliki broj vozila, posebno kamiona, koji zagađuju i
+                  uništavaju najlepše delove planine.
+                </p>
+                <p>
+                  Nekada je na Fruškoj gori bila razvijena i rudarska
+                  proizvodnja uglja u Vrdniku, ali je rudnik napušten pre više
+                  decenija. Na planini se nalaze više površinskih kopova, što
+                  napuštenih, što aktivnih.
+                </p>
+                <p>
+                  Na Fruškoj gori izgrađeno je
+                  <strong>14 veštačkih jezera</strong> uglavnom na južnoj strani
+                  planine (sva osim Popovičkog i jezera kod Testere) u potočnim
+                  dolinama u cilju navodnjavanja, odbrane od bujica, ali i
+                  turizma i ribolova. Informacije o nekim od tih jezera
+                  prikazani su u tabeli:
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="kultura">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <h2>Kultura</h2>
+                <p>
+                  Na Fruškoj gori najznačajniji spomenik kulture predstavlja
+                  manastiri raspoređenih po celoj planini. Podignuti su kao
+                  zadužbine srpskih vladarskih porodica, nakon što je, u kasnom
+                  srednjem veku pod pritiskom Turaka, težište srpske duhovne i
+                  kulturne baštine pomereno na sever.
+                </p>
+              </td>
+              <td>
+                <img src="./slike/Slika_cetvrti_div.png" alt="slika privreda" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Fruškogorski manastiri su:</p>
+        <ol>
+          <li>Beocin</li>
+          <li>Vrdnik</li>
+          <li>Grgeteg</li>
+          <li>Jazak</li>
+          <li>Kuveždin</li>
+          <li>Novo Hopovo</li>
+          <li>Privina Glava</li>
+          <li>Staro Hopovo</li>
+          <li>Bešenovo</li>
+          <li>Velika Remeta</li>
+          <li>Đipša</li>
+          <li>Krušedol</li>
+          <li>Mala Remeta</li>
+          <li>Petkovica</li>
+          <li>Rakovac</li>
+          <li>Vranjaš</li>
+          <li>Šišatovac</li>
+        </ol>
+      </section>
+      <section id="prijava">
+        <h2>Prijava</h2>
+        <form>
+          <fieldset>
+            <legend>Lični podaci:</legend>
+            <label for="ime">Ime</label>
+            <input type="text" name="ime" id="ime" />
+            <label for="prezime">Prezime</label>
+            <input type="text" name="prezime" id="prezime" />
+            <label for="muski">Muški</label>
+            <input type="radio" id="muski" name="pol" value="muski" />
+
+            <label for="zenski">Ženski</label>
+            <input type="radio" id="zenski" name="pol" value="zenski" />
+
+            <label for="drugo">Drugo</label>
+            <input type="radio" id="drugo" name="pol" value="drugo" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Kontakt podaci</legend>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="telefon">Telefon</label>
+            <input type="tel" name="telefon" id="telefon" />
+          </fieldset>
+
+          <label for="poruka">Poruka</label>
+          <textarea name="poruka" id="poruka" cols="30" rows="10"></textarea>
+          <input type="submit" value="Poništi" />
+          <input type="submit" value="Pošalji" />
+        </form>
+      </section>
+    </main>
+    <a href="#" class="fixed-btn">Vrati se na vrh</a>
+  </body>
+</html>

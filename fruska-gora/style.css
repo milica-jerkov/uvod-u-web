@@ -1,0 +1,30 @@
+header {
+    background: rgb(240, 240, 240);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    color: white;
+}
+
+.fixed-btn {
+    position: fixed;
+    background: red;
+    right: 50px;
+    bottom: 50px;
+}
