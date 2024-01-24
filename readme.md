@@ -87,3 +87,9 @@ Anatomija CSS-a obuhvata osnovne strukture, pravila i koncepte koji čine stilsk
 **fixed**: Element ostaje fiksiran u odnosu na pregledač prozora. Ne zauzima mesto u normalnom toku dokumenta.
 
 **sticky**: Element se ponaša kao relative do tačke, nakon čega postaje fixed u odnosu na roditeljski kontejner.
+
+U CSS-u, svojstva **left**, **right**, **top**, i **bottom** koriste se u kombinaciji s position svojstvom kako bi odredili poziciju elementa. 
+
+**z-index** svojstvo se koristi za takozvanu treću dimenziju, odnosno za kontrolu redosleda slojeva kod pozicioniranih elemenata
+![z-index](./dodatno/z-index.png)
+
