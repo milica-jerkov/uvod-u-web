@@ -11,3 +11,17 @@ Specificnost
 https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 https://www.tutorialstonight.com/css/css-specificity
 
+Can I use
+https://caniuse.com/
+
+CSS generatori
+https://cssgradient.io/
+https://www.cssmatic.com/box-shadow
+
+Flexbox
+https://codepen.io/enxaneta/full/adLPwv
+https://flexbox.tech/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-bugs
+https://flexboxfroggy.com/
+http://www.flexboxdefense.com/
+
