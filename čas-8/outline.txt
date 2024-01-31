@@ -1,0 +1,25 @@
+transition: property duration timing-function delay;
+
+
+responsive
+breakpoint
+
+media query
+@media all
+@media screen
+@media print
+@media speech
+
+ 
+
+@media (aspect-ratio: 16/9), min, max 
+@media (orientation: portrait)
+
+
+min-width, max-width 
+mobile first, desktop first
+
+picture
+source, srcset, media
+video
+iframe

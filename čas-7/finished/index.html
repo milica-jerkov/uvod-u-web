@@ -6,21 +6,70 @@
     <link rel="stylesheet" href="style.css" />
     <title>Flexbox - finished</title>
   </head>
+
   <body>
-    <header>
-        <a href="#">Hosterr</a>
+    <div class="wrapper">
+      <header>
+        <div>
+          <img src="./assets/Logo.svg" alt="Rocket logo" />
+          <a class="hoster" href="index.html">Hosterr</a>
+          <button class="cta-btn">Hosterr is hiring!</button>
+        </div>
         <nav>
           <ul class="flex justify-between gap">
             <li><a href="#">Plans</a></li>
             <li><a href="#">Find domain</a></li>
-            <li><a href="#">wHy hoster</a></li>
+            <li><a href="#">Why hoster</a></li>
           </ul>
         </nav>
         <div>
           <a href="#">Sign up</a>
-          <button>Join Waitlist</button>
+          <button class="join-button">Join Waitlist</button>
         </div>
-   
-    </header>
+      </header>
+      <section class="main">
+        <div class="content">
+          <h1>Host your website in less than 5 minutes</h1>
+          <p class="desc">
+            With Hoster, get your website up and running with no less than 5
+            minutes with the most compettetive pricing packages avaliable
+            online.
+          </p>
+          <div class="newsletter">
+            <input class="newsletter-input" type="text" />
+            <button class="join-button">Join Waitlist</button>
+          </div>
+          <div class="main-footer">
+            <img src="./assets/Checkmark.svg" alt="mark" />
+            <p>No sapm, ever. Unsubscribe anytime.</p>
+          </div>
+        </div>
+        <div class="image-container">
+          <img
+            class="hero-img"
+            src="./assets/Hero Image (Model).png"
+            alt="model posing between some leafs" />
+        </div>
+      </section>
+
+      <footer class="footer flex container">
+        <div class="social-media">
+          <nav>
+            <ul class="flex flex-start gap">
+              <li><a href="#">Faacebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="support">
+          <img class="avatar" src="./assets/Help Avatar.svg" alt="avatar" />
+          <div class="avatar-desc">
+            <h2>Have any questions?</h2>
+            <a href="#">Talk to a specialist</a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
