@@ -1,0 +1,10 @@
+- grid-template-columns/row
+- inspect
+- grid-column/row - grid-row-start
+- grid-gap
+- grid-template-areas / grid-area
+- justify-items / align-items / unutar ćelija
+- justify-content / align-content / celi grid unutar kontejnera
+- place-items 
+- grid-auto-columns/row
+- grid-auto-flow
