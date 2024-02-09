@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+--boja: red;
+}
+
+
+body {
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 300px;
+    aspect-ratio: 1 / 1.5;
+    border: 1px solid #ccc;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 20px 0 20px;
+    gap: 20px;
+    overflow: hidden;
+    
+}
+
+.card::after {
+    content: '';
+    width: 100%;
+    height: 0;
+    background: #2b215f;
+    display: block;
+    transition: .5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.card:hover::after {
+    height: 100%;
+}
+
+.title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #2b215f;
+    & span {
+        color: #ff3e88;
+        display: block;
+    }
+}
+
+.card:hover .title {
+    color: #fff;
+}
+
+.content {
+    color: var(--boja);
+    font-size: 16px;
+    transition: .5s ease-in-out;
+    transform: translateY(200px);
+    height: 0;
+    padding-bottom: 20px;
+    /* color: #fff; */
+}
+
+.card:hover .content {
+    font-size: 16px;
+    transform: translateY(0px);
+    height: auto;
+}
+
+svg {
+    width: 80px;
+    transition: .3s ease-in-out;    
+}
+
+svg path {
+    fill: #fff;
+    stroke: #2b215f;
+    transition: .3s ease-in-out;
+}
+
+.card:hover svg path {
+    fill: #2b215f;
+    stroke: #ff3e88;
+}
+
+.card:hover svg {
+    align-self: center;
+    transform: scale(1.5) translateY(-40px)
+}
