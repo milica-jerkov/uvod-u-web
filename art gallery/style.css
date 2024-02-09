@@ -12,18 +12,28 @@
     --almost-black: #151515;
     --dark-grey: #444444;
     --gold: #D5966C;
+
+    --color: blue;
+    --transition: all .3s ease-in-out; 
+    --shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
 }
+
+/* .nested {
+    color: green !important;
+
+    & p {
+        color: red !important;
+        &:hover { // p:hover 
+            color: blue !important
+        }
+    }
+}
+ */
 
 body {
     background: var(--white);
     color: var(--dark-grey);
 }
-
-.test {
-    font-size: 100px;
-    line-height: 100px;
-}
-
 
 .heading, .button {
     font-family: var(--primary-font);
@@ -92,12 +102,12 @@ body {
 .container {
     max-width: 1110px;
     margin: 0 auto;
-   /*  background: repeating-linear-gradient(to right,
+    /* background: repeating-linear-gradient(to right,
                 rgba(255, 0, 0, 0.1),
                 rgba(255, 0, 0, 0.1) calc((100% - 330px) / 12),
                 transparent calc((100% - 330px) / 12),
                 transparent calc((100% - 330px) / 12 + 30px)
-            ); */
+            ); */ 
 }
 
 .grid {
