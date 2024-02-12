@@ -1,0 +1,17 @@
+@mixin screen-md (){
+  @media screen and (max-width: $screen-md) {
+    @content;
+  }
+}
+
+@mixin onHover($default, $hover) {
+  background: $default;
+  &:hover {
+    background: $hover;
+  }
+}
+
+@mixin sirina($width) {
+  width: $width;
+  height: calc($width / 2);
+}

@@ -1,0 +1,45 @@
+/* .heading {
+  color: $secondary-color;
+  @include screen-md {
+    color: $primary-color;
+  }
+  @include screen-sm {
+    color: red;
+  }
+}
+ */
+
+@function darken-color($color, $amount) {
+  @return darken($color, $amount);
+}
+
+.div {
+  width: 200px;
+  height: 200px;
+  /* @include onHover(red, blue); */
+  background: darken-color(#eb938d, 50%);
+  /* @include sirina(500px);
+  &:hover {
+    background: green;
+  } */
+  /* & div p a span {
+    &:hover {
+      color: red;
+    }
+  } */
+}
+
+.div2 {
+  background: red;
+  @extend .div;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text-dark {
+  color: black;
+  @extend .paragraph;
+}

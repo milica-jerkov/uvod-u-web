@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 24px;
+  border: none;
+  outline: none;
+}
+
+/* .heading {
+  color: $secondary-color;
+  @include screen-md {
+    color: $primary-color;
+  }
+  @include screen-sm {
+    color: red;
+  }
+}
+ */
+.div, .div2 {
+  width: 200px;
+  height: 200px;
+  /* @include onHover(red, blue); */
+  background: #671712;
+  /* @include sirina(500px);
+  &:hover {
+    background: green;
+  } */
+  /* & div p a span {
+    &:hover {
+      color: red;
+    }
+  } */
+}
+
+.div2 {
+  background: red;
+}
+
+.paragraph, .text-dark {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text-dark {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
