@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px
+}
+
+.heart {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    transform: rotate(45deg);
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.heart::before, .heart::after {
+    content: '';
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    background-color: red;
+}
+
+.heart::before {
+    left: 0;
+    top: -100px;
+}
+
+.heart::after {
+    right: 100px;
+}
+
+
+@keyframes heartbeat {
+  from {
+            transform: scale(1) rotate(45deg);
+            transform-origin: center center;
+            animation-timing-function: ease-out;
+  }
+  10% {
+            transform: scale(0.91) rotate(45deg);
+            animation-timing-function: ease-in;
+  }
+  17% {
+            transform: scale(0.98) rotate(45deg);
+            animation-timing-function: ease-out;
+  }
+  33% {
+            transform: scale(0.87) rotate(45deg);
+            animation-timing-function: ease-in;
+  }
+  45% {
+            transform: scale(1) rotate(45deg);
+            animation-timing-function: ease-out;
+  }
+}
+
+
+
+/* .element {
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation-name: rotateDiv;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateDiv {
+   from {
+    transform: rotate(0deg);
+   }
+   to {
+    transform: rotate(360deg);
+   }
+} */

@@ -1,0 +1,44 @@
+ANIMACIJE 
+@keyframes
+animation: name duration timing-function delay iteration-count direction fill-mode;
+
+
+
+
+
+
+
+@mixin background-hover($regular-state, $hover-state) {
+  background-color: $regular-state;
+    transition: vars.$default-transition;
+
+  &:hover {
+    background-color: $hover-state;
+  }
+}
+
+
+
+@mixin odd-row-coloring($color) {
+	@include row-coloring($color, odd);
+}
+
+@mixin even-row-coloring($color) {
+	@include row-coloring($color, even);
+}
+
+@mixin row-coloring($color, $rows) {
+	&:nth-child(#{$rows}) {
+		background-color: $color;
+	}
+}
+
+
+
+@function lighten-color($color, $amount) {
+  @return lighten($color, $amount);
+}
+
+@function darken-color($color, $amount) {
+  @return darken($color, $amount);
+}
